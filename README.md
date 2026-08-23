@@ -1,6 +1,6 @@
-# THItoGene
 
-THItoGene is a hybrid neural network that leverages dynamic convolution and capsule networks to adaptively perceive
+
+This is a hybrid neural network that leverages dynamic convolution and capsule networks to adaptively perceive
 latent molecular signals from histological images, for the systematic analysis of spatial gene expression within tissue
 pathology. THItoGene integrates gene expression, spatial locations, and histological images to explore and analyze the
 relationship between high-resolution pathological image phenotypes and tumor genetic morphology.
