@@ -25,12 +25,6 @@ relationship between high-resolution pathological image phenotypes and tumor gen
 ## Environment
 
 The required environment has been packaged in the [`requirements.txt`](./requirements.txt) file.
-Please run the following command to install.
-
-```commandline
-cd THItoGene
-pip install -r requirements.txt
-```
 
 ## Datasets
 
