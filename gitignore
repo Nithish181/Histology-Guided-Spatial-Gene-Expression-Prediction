@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+.env
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Data (large, downloaded separately via data/download.sh) ----
+data/her2st/
+data/GSE144240_RAW/
+data/10X/
+*.npy
+*.h5ad
+*.tsv.gz
+
+# ---- Trained models / checkpoints (large, downloaded from Synapse or produced by training) ----
+model/
+*.ckpt
+
+# ---- Logs ----
+logs/
+lightning_logs/
+*.csv
+
+# ---- Misc large/generated artifacts ----
+*.tif
+*.tiff
+outputs/
